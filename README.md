@@ -10,7 +10,19 @@
 
 4 - php init
 
-5 - crie um banco de dados (nome padrão: projetoModelo)
+5 - crie um banco de dados
+
+ - em common/main-local.php:
+    ```php
+        'components' => [
+                'db' => [
+                    'class' => 'yii\db\Connection',
+                    'dsn' => 'mysql:host=127.0.0.1;dbname=nomedobanco',
+                    'username' => 'root',
+                    'password' => '',
+                    'charset' => 'utf8',
+                ],
+    ```
 
 6 - php yii migrate/up --migrationPath=@vendor/dektrium/yii2-user/migrations
 

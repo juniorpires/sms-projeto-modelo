@@ -23,6 +23,7 @@
                     'charset' => 'utf8',
                 ],
     ```
+   *lembre-se de colocar no host: 127.0.0.1]*
 
 6 - php yii migrate/up --migrationPath=@vendor/dektrium/yii2-user/migrations
 

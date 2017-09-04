@@ -12,7 +12,7 @@
 
 5 - crie um banco de dados
 
- - em common/main-local.php:
+ - Em common/config/main-local.php:
     ```php
         'components' => [
                 'db' => [

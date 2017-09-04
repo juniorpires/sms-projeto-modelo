@@ -22,7 +22,7 @@
                     'password' => '',
                     'charset' => 'utf8',
                 ],
-       ]
+        ]
     ```
    *lembre-se de colocar no host: 127.0.0.1*
 

@@ -19,5 +19,7 @@ Instalação:
 8 - php yii migrate
 
 
-#Verificando se deu certo:   http://localhost/sms-projeto-modelo/frontend/web/index.php
+# Verificando se deu certo:   
+
+http://localhost/sms-projeto-modelo/frontend/web/index.php
 

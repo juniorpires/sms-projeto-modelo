@@ -10,7 +10,9 @@
 
 4 - php init
 
-5 - crie um banco de dados
+5 - composer update
+
+6 - crie um banco de dados
 
  - Em common/config/main-local.php:
     ```php
@@ -26,11 +28,11 @@
     ```
    *lembre-se de colocar no host: 127.0.0.1*
 
-6 - php yii migrate/up --migrationPath=@vendor/dektrium/yii2-user/migrations
+7 - php yii migrate/up --migrationPath=@vendor/dektrium/yii2-user/migrations
 
-7 - php yii migrate/up --migrationPath=@yii/rbac/migrations
+8 - php yii migrate/up --migrationPath=@yii/rbac/migrations
 
-8 - php yii migrate
+9 - php yii migrate
 
 ## Verificando se deu certo:   
 

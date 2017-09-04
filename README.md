@@ -1,6 +1,6 @@
 # sms-projeto-modelo
 
-##Instalação:
+## Instalação:
 
 1 - composer create-project juniorpires/sms-projeto-modelo
 

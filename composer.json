@@ -2,6 +2,9 @@
     "name": "juniorpires/sms-projeto-modelo",
     "description": "Projeto Yii 2 avançado com configurações extras",
     "type": "project",
+    "license": "BSD-3-Clause",
+    "minimum-stability": "dev",
+    "prefer-stable": true,
     "require": {
         "php": ">=5.4.0",
         "yiisoft/yii2": ">=2.0.6",

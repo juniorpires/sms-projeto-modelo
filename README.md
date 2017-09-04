@@ -1,6 +1,6 @@
 # sms-projeto-modelo
 
-Instalação:
+##Instalação:
 
 1 - composer create-project juniorpires/sms-projeto-modelo
 
@@ -18,8 +18,10 @@ Instalação:
 
 8 - php yii migrate
 
-
-# Verificando se deu certo:   
+## Verificando se deu certo:   
 
 http://localhost/sms-projeto-modelo/frontend/web/index.php
+
+login: admin
+senha: admin1
 

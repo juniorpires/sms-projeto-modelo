@@ -2,13 +2,13 @@
 
 ## Instalação:
 
-1 - composer create-project juniorpires/sms-projeto-modelo
+1 - composer global require "fxp/composer-asset-plugin:^1.3.1"
 
-2 - cd sms-projeto-modelo 
+2 - composer create-project --stability=dev juniorpires/sms-projeto-modelo meu-projeto
 
-3 - php init
+3 - cd sms-projeto-modelo 
 
-4 - composer update
+4 - php init
 
 5 - crie um banco de dados (nome padrão: projetoModelo)
 

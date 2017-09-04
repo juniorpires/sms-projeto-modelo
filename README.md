@@ -4,7 +4,7 @@
 
 1 - composer global require "fxp/composer-asset-plugin:^1.3.1"
 
-2 - composer create-project --stability=dev juniorpires/sms-projeto-modelo meu-projeto
+2 - composer create-project --stability=dev juniorpires/sms-projeto-modelo
 
 3 - cd sms-projeto-modelo 
 

@@ -16,16 +16,16 @@ return [
             'csrfParam' => '_csrf-frontend',
         ],
          'view' => [
+            'class' => 'yii\web\View',
             'theme' => [
-                'pathMap' => [
-                   '@app/views' => '@frontend/themes/lte'
-                ],
+                'class' => 'yii\base\Theme',
+                'pathMap' => ['@app/views' => '@frontend/themes/lte'],
             ],
          ],
          'assetManager' => [
         'bundles' => [
             'dmstr\web\AdminLteAsset' => [
-                'skin' => 'skin-purple',
+                'skin' => 'skin-green',
             ],
         ],
     ],
